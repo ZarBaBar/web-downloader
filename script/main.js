@@ -58,4 +58,5 @@ buttonGas.addEventListener("click", () => {
       result.innerHTML = `<p>Pilih jenis downloader terlebih dahulu!</p>`;
       break;
   }
+  result.innerHTML = "Sedang melakukan proses...";
 });
